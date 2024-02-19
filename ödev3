@@ -1,0 +1,24 @@
+    Root 7'dir. İlk eleman root olarak belirlenir.
+    5, 7'den küçük olduğu için 7'nin soluna eklenir.
+    1, 7'den küçük ve 5'ten de küçük olduğu için 5'in soluna eklenir.
+    8, 7'den büyük olduğu için 7'nin sağına eklenir.
+    3, 7'den küçük, 5'ten küçük ama 1'den büyük olduğu için 1'in sağına eklenir.
+    6, 7'den küçük, 5'ten büyük olduğu için 5'in sağına eklenir.
+    0, 7'den küçük, 5'ten küçük ve 1'den de küçük olduğu için 1'in soluna eklenir.
+    9, 7'den büyük ve 8'den de büyük olduğu için 8'in sağına eklenir.
+    4, 7'den küçük, 5'ten küçük, 1'den büyük ve 3'ten de büyük olduğu için 3'ün sağına eklenir.
+    2, 7'den küçük, 5'ten küçük, 1'den büyük ve 3'ten küçük olduğu için 3'ün soluna eklenir.
+
+
+    BST'nin aşamalı yapısı;
+
+    Root 7'dir.
+        7'nin solunda 5 bulunur.
+            5'in solunda 1 bulunur.
+                1'in solunda 0 bulunur.
+                1'in sağında 3 bulunur.
+                    3'ün solunda 2 bulunur.
+                    3'ün sağında 4 bulunur.
+            5'in sağında 6 bulunur.
+        7'nin sağından 8 bulunur.
+            8'in sağında 9 bulunur.
